@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* shared section */
+  .display-flax{
+    display: flex;
+   
+  }
+ 
+     .btn-primary{
+        color: rgb(255, 255, 255);
+        font-size: 1.30rem;
+        font-weight: 600;
+        padding: 10px 50px;
+        background-color: rgb(254, 163, 1);
+        border: none;
+        border-radius: 12px;
+      }
+
+      .btn-secondary{
+        color: rgb(255, 255, 255);
+        font-size: 1.20rem;
+        font-weight: 700px;
+        padding: 12px 35px;
+        background-color: rgb(17, 17, 17);
+        border: none;
+        border-radius: 10px;
+      }
+      
+  
+
+  /* header section */
+
+  header{
+    max-width: 85%;
+    margin:10px auto;
+ }
+
+  /* navber section */
+  .nav-container{
+    align-items: center; 
+    justify-content: space-between;
+    
+  }
+
+  .logo{
+    align-items: center;
+    gap: 11px;
+  }
+ 
+  
+  .logo-name{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: rgb(17, 17, 17);
+    /* margin-right: 250px; */
+
+  }
+
+  .nav-container ul li{
+    list-style: none;
+  
+  }
+ 
+  .nav-items a{
+    text-decoration: none;
+  }
+  .nav-links{
+    gap: 30px;
+  }
+  #home{
+        color: rgb(254, 163, 1);
+        font-size: 1.2rem;
+        font-weight: 500;     
+
+  }
+  #about{
+    color: #01ACFD;
+    font-size: 1.2rem;
+    font-weight: 500;     
+
+}
+#facilities{
+    color:#05D4DF ;
+    font-size: 1.2rem;
+    font-weight: 500;     
+
+}
+#admission{
+    color: #5D58EF;
+    font-size: 1.2rem;
+    font-weight: 500;     
+
+}
+.bar{
+   display: none;
+}
+
+
+/* banner section */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-title{
+    font-weight: 600;
+    font-size: 4.5rem;
+  
+}
+.sp1{
+    color: rgb(254, 163, 1) ;
+}
+.sp3{
+   color: rgb(1, 172, 253);
+}
+
+.banner-content{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* main */
+
+main{
+    max-width: 80%;
+    margin:10px auto;
+    margin-top: 70px;
+    background-image: url("/image/bg.png");
+    background-size: contain, cover;
+    
+}
+
+/* curriculam section */
+
+.currrculam-title{
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+
+}
+.currculam-container-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+.currculam-box{  
+  text-align: center;
+  padding: 40px;
+  border-radius: 18px;
+  /* max-width: 267.8px;
+  height: 376.78px; */
+}
+
+.currculam-box-1{
+  background: linear-gradient(to top, white 70%, #DEF5FF);
+  box-shadow: 0 0 12px #DEF5FF inset ;
+}
+
+.currculam-box-2{
+    
+  background: linear-gradient(to top, white 70%, #FFF4DC);
+  box-shadow: 0 0 12px #FFF4DC inset;
+
+}
+.currculam-box-3{
+
+  background: linear-gradient(to top, white 70%, #F2E8FF);
+  box-shadow: 0 0 12px #F2E8FF inset;
+
+}
+.currculam-img{
+  margin-top: 40px;
+}
+.currculam-discription{
+  font-family: Raleway;
+  color: rgb(128, 128, 128);
+}
+.currculam-kinder{
+  margin-top: 30px;
+  color: rgb(32, 32, 32);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.read-more{
+ margin-top: 30px;
+  text-decoration: none;
+  font-size: 15.09px;
+  font-weight: 700;
+  color: rgb(100, 200, 255);
+  
+}
+.read-more-2{
+  color: rgb(240, 170, 0);
+
+}
+.read-more-3{
+  color: rgb(135, 0, 255);
+
+}
+
+
+.arrow_section{
+    
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom:  40px;
+  column-gap: 10px;
+  
+}
+.arrow_box{
+ 
+  background-color:rgb(254, 163, 1);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.arrow_box .arrow{
+  
+  padding-top: 20px;
+  padding-left: 22px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.arrow_box:hover{
+  background-color:rgb(128, 95, 95);
+
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* header */
+
+    /* navbar */
+     header{
+        max-width: 100%;
+        margin: 0;
+    } 
+    .bar{
+        display: contents;
+    }
+    .logo-name{
+        display: none;
+    }
+    .nav-container{
+        padding: 0 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .nav-container{
+        margin: 0;
+        height: 100px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgba(254, 163, 1, 1);
+    }
+    .bar{
+        
+        font-size: 2rem;
+    }
+    /* banner */
+   
+   .banner-container{
+    flex-direction: column-reverse;
+    padding: 20px;
+    justify-content: center;
+   }
+   .banner-title{
+    font-size: 2rem;
+   }
+   .banner-content{
+    font-size: 1rem;
+    letter-spacing: 0%;
+    
+   }
+   .banner-content br{
+    display: none;
+   }
+   .banner-img{
+    width: 100%;
+   }
+  .banner-text{
+    text-align: center;
+  } 
+
+  /* currculum section */
+
+  .currculam-container-box{
+      /* display:grid ; */
+      grid-template-columns: repeat(1,1fr);
+  }
+    
+}
+
+
+  
